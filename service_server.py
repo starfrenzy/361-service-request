@@ -27,7 +27,7 @@ while True:
     issue = input("A brief description of your issue: ")
     print("Thank you for submitting your service request.\n"
           "Our office will contact you to arrange service.\n"
-          "Have a great day!")
+          "Have a great day!\n")
 
     new_request = {
         "Name": full_name,

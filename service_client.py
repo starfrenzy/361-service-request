@@ -9,7 +9,7 @@ import zmq
 context = zmq.Context()
 
 #  Socket to talk to server
-print("Connecting to CS361 server...")
+print("Connecting to Tenant Service Request server...")
 socket = context.socket(zmq.REQ)
 socket.connect("tcp://localhost:1999")
 
@@ -21,5 +21,3 @@ for request in range(10):
     #  Get the reply.
     message = socket.recv()
     print(f"Received [ {message} ]")
-
-    # add to list or JSON of all issues #todo

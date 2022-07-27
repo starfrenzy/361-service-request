@@ -21,11 +21,12 @@ This microservice allows a rental tenant to submit a request for maintenance or 
 
 
 #### How to Get the Response:
+Read from 'request_list.json'. All new service requests will be posted there. 
 
-
+Each service request is a separate dictionary in the JSON file.
 
 ### UML Diagram
 
 
 
-##### Jessi Frenzel maintains and contributes to this project.
+###### Jessi Frenzel maintains and contributes to this project.

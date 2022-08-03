@@ -19,7 +19,6 @@ while True:
 
     #  Do some 'work'
     time.sleep(1)
-    # json_object = json.dumps(message, indent=1)
 
     # add this new dictionary to main JSON
     with open("request_list.json", "a") as outfile:

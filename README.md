@@ -4,6 +4,11 @@ Microservice for adding dictionaries to a JSON file.
 ### What this project does:
 This microservice takes in a single dictionary and appends it to a JSON file (list) of all dictionaries.
 
+### Files You Need:
+- addict_client.py  -  _Copy this code and use it in your program (with adjustments)_
+- addict_server.py  -  _Run this server file as is, just before starting your program._
+- request_list.json -  _Each new dictionary is added to this file. Open it to see all your dictionaries._
+
 ### How to Use the Microservice, What to Send, and How to Send It:
 1. IMPORTANT First Step: Visit the “Building and Installing” section at [this page](https://pypi.org/project/pyzmq/) to install the ZeroMQ Python library using Terminal.  This is the command:
 ```
@@ -16,7 +21,9 @@ _The dictionary stored to a variable on line 16 and used in line 21 in 'addict_c
 Right now the client code is set to send to the server just once. You can update Line 19 to run 'while True' or a certain number of times. If you do that, then indent all following lines. 
 
 3. Make sure to add 'import zmq' to the top of your main program. 
+4. If you've been trying it out, remember to clear 'request_list.json' before filming your video. 
 4. Run 'addict_server.py' first before starting your program.
+
 
 
 #### How to Get the Response:
